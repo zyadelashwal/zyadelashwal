@@ -54,12 +54,8 @@ class MyDocument extends Document {
           <meta name='JavaScript' content="JavaScript" />
           <meta name='Jquery' content="Jquery" />
           <meta name='Frontend' content="Fron End Developer" />
-          <link href="https://fonts.googleapis.com/css?family=Capriola&amp;subset=latin-ext" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css?family=Alex+Brush&amp;subset=latin-ext" rel="stylesheet"></link>
-          <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900&display=swap" rel="stylesheet"></link>
-          <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800" rel="stylesheet" />
+          
+         
           <BaseCSS />
         </Head>
         <body className={`try`}>

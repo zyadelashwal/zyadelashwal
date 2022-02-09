@@ -41,7 +41,7 @@ const Banner = () => {
                                     <div className="link-horizontal">
                                         <ul>
                                             <li><a href='#' onClick={toggle} className="btn btn-default primary-btn back-white">Contact me</a></li>
-                                            <li><a href='/Zyad-Cv-pdf.pdf' target={"_blank"} 
+                                            <li><a href='/Zyad-Cv-pdf.pdf' target={"_blank"} rel="noreferrer" 
                                                     className="btn btn-default primary-btn back-white">Download Cv</a></li>
                                         </ul>
                                     </div>
