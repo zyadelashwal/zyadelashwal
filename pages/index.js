@@ -41,7 +41,9 @@ const Resume = () => {
 
             <ProjectsSection />
 
-            {/* <SubscribeSection /> */}
+            <a href="https://wa.me/0096897285062" className="float" target="_blank">
+          <i class="fa fa-whatsapp my-float"></i>
+          </a>
 
             <FooterSection />
 
