@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Nav from './nav'
-import Link from 'next/link'
 import { Container, Row, Col } from 'reactstrap'
+import Image from 'next/image'
 
 const Header = props => {
     const [show, setShow] = useState(false)
@@ -21,24 +21,24 @@ const Header = props => {
                         <nav>
                             <a className="m-r-auto" href="/">
                                 {props.className == 'agency' ?
-                                    <img alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
+                                    <Image width={80} height={80} alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
                                     :
                                     props.className == 'dark' ?
-                                        <img alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
+                                    <Image width={80} height={80} alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
                                         :
                                         props.className == 'dark position-relative ecommerce' ?
-                                            <img alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
+                                        <Image width={80} height={80} alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
                                             :
                                             props.className == 'dark bg-white ecommerce' ?
-                                            <img alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
+                                            <Image width={80} height={80} alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
                                             :
                                                 props.className == 'dark agency' ?
-                                                    <img alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
+                                                <Image width={80} height={80} alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
                                                     :
                                                     props.className == 'saas1' ?
-                                                        <img alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
+                                                    <Image width={80} height={80} alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
 
-                                                        : <img alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
+                                                        : <Image width={80} height={80} alt="" className="img-fluid" src="/assets/images/logo/logo.png" />
                                 }
                             </a>
                             <div className="responsive-btn">
@@ -66,17 +66,7 @@ const Header = props => {
                                             </div>
                                         </li>
 
-                                        <li className="account ">
-                                            <a href="#" onClick={() => setShow(!show)}>
-                                                <i className="icon-user"></i>
-                                            </a>
-                                            <div className={`dropdown-menu ${show && `show`} dropdown-menu-right`}>
-                                                <Link href={"/shop/auth/login"}><a href="#">Login</a></Link>
-                                                <a href="#">Account</a>
-                                                <Link href={"/shop/wishlist"}><a href="#">Wishlist</a></Link>
-                                                <Link href={"/shop/checkout"}><a href="#">checkout</a></Link>
-                                            </div>
-                                        </li>
+                               
                                     </ul>
                                 </div>
                             }

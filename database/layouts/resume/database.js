@@ -33,14 +33,14 @@ module.exports = {
     ScheduleData: [
         {
             name: 'Technology Busniss Solutions , Oman',
-            img: '/assets/images/resume/icon/tbs.png',
+            img: '/assets/images/resume/icon/tbs.jpg',
             desc: 'TBS develops innovative and creative products and services that provide all communication and information solutions.',
             time: '2019',
             endTime: 'present'
         },
         {
             name: 'Integral Solution , Oman(Outsource) ',
-            img: '/assets/images/resume/icon/integral.png',
+            img: '/assets/images/resume/icon/integral.jpg',
             desc: 'Integral Solution, established in year 2004, is a turnkey IT solution provider. Integral provides One-Stop IT solutions and services for its customers, ranging from low budget projects to multi-million dollar enterprise solutions.',
             time: '2021',
             endTime: 'persent'

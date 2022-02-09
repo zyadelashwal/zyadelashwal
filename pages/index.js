@@ -29,19 +29,15 @@ const Resume = () => {
 
             <BannerSection />
 
-            {/* <AboutSection /> */}
-
             <ServiceSection />
 
-            {/* <Section /> */}
-
-            {/* <CounterSection /> */}
+         
 
             <ScheduleSection />
 
             <ProjectsSection />
 
-            <a href="https://wa.me/0096897285062" className="float" target="_blank">
+            <a href="https://wa.me/00201060080362" className="float" target="_blank">
           <i class="fa fa-whatsapp my-float"></i>
           </a>
 

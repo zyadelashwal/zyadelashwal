@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import Link from 'next/link'
 import { Container, Row, Col } from 'reactstrap'
+import Image from 'next/image'
+
 const Error = ({ statusCode }) => {
 
     const isErrorPage = true
@@ -34,13 +36,13 @@ const Error = ({ statusCode }) => {
                     </Container>
                 </div>
                 <div className="objects">
-                    <img alt="object_rocket" className="object_rocket" src="/assets/images/404/rocket.svg" />
+                    <Image width={200} height={200} alt="object_rocket" className="object_rocket" src="/assets/images/404/rocket.svg" />
                     <div className="earth-moon">
-                        <img alt="object_earth" className="object_earth" src="/assets/images/404/earth.svg" />
-                        <img alt="object_moon" className="object_moon" src="/assets/images/404/moon.svg" />
+                    <Image width={200} height={200} alt="object_earth" className="object_earth" src="/assets/images/404/earth.svg" />
+                    <Image width={200} height={200} alt="object_moon" className="object_moon" src="/assets/images/404/moon.svg" />
                     </div>
                     <div className="box_astronaut">
-                        <img alt="object_astronaut" className="object_astronaut" src="/assets/images/404/astronaut.svg" />
+                    <Image width={200} height={200} alt="object_astronaut" className="object_astronaut" src="/assets/images/404/astronaut.svg" />
                     </div>
                 </div>
                 <div className="glowing_stars">

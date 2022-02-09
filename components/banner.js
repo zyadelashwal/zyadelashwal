@@ -1,6 +1,7 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import Typed from 'react-typed';
-import {Container,Row,Col,Modal, ModalHeader, ModalBody,Form, Label} from 'reactstrap'
+import {Container,Row,Col,Modal, ModalBody,Form, Label} from 'reactstrap'
 
 const Banner = () => {
     const [modal, setModal] = useState();
@@ -14,7 +15,7 @@ const Banner = () => {
                 <Container>
                     <Row>
                         <Col lg="5" md="6">
-                            <img alt="" className="img-fluid set-abs bottom-0 right-0" src="/assets/images/resume/Zyad.png" />
+                            <Image layout='fill' alt="" className="img-fluid set-abs bottom-0 right-0" src="/assets/images/resume/Zyad.png" />
                         </Col>
                         <Col lg="6" md="6" className="offset-lg-1">
                             <div className="center-text">

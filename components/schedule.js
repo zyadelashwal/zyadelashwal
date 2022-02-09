@@ -1,6 +1,8 @@
 import React from 'react';
 import { ScheduleData } from'../database/layouts/resume/database';
 import {Container,Row,Col} from 'reactstrap'
+import Image from 'next/image';
+
 const Schedule = () => (
     <section className="resume schedule" id="Experiences">
         <Container>
@@ -33,7 +35,7 @@ const Schedule = () => (
                                                 <Col md="10">
                                                     <div className="schedule-event">
                                                         <h4 className="names">{item.name}</h4>
-                                                        <img alt="" className="img-fluid schedule-img"
+                                                        <Image width={80} height={80} alt="" className="img-fluid schedule-img"
                                                             src={item.img} />
                                                         <p className="schedule-description">{item.desc}</p>
                                                     </div>
